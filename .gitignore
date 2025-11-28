@@ -1,0 +1,22 @@
+# --- Firebase & Build ---
+/.firebase/
+/firebase-debug.log
+/functions/node_modules/
+/dist/
+/build/
+
+# --- Dependencies ---
+node_modules/
+
+# --- Environment Files ---
+.env
+.env.local
+.env.*
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+
+# --- System / OS Files ---
+.DS_Store
+Thumbs.db
