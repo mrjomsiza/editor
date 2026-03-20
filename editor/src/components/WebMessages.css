@@ -1,0 +1,61 @@
+.admin-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.message-card {
+  display: flex;
+  gap: 20px;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.message-left {
+  width: 30%;
+  min-width: 160px;
+}
+
+.message-left p {
+  margin: 4px 0;
+}
+
+.phone {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.message-right {
+  width: fit-content;
+  background: #f7f7f7;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.whatsapp-btn {
+  margin-top: 10px;
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+
+@media (max-width: 700px) {
+  .message-card {
+    flex-direction: column;
+  }
+
+  .message-left,
+  .message-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+  }
+  
+  /* Top navigation bar */
+  .top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+  }
+  
+  .top-nav button {
+    padding: 10px 15px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.2s, border-bottom 0.2s;
+  }
+  
+  .top-nav button:hover {
+    color: #007bff;
+  }
+  
+  .top-nav button.active {
+    font-weight: bold;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Workspace container */
+  .workspace-container {
+    padding: 20px;
+  }
+  
+  /* AllSites view */
+  .all-sites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .all-sites li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Add site form */
+  .add-site-form {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-site-form input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+  }
+  
+  .add-site-form button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .add-site-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Account, Documents, Support */
+  .view-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.05);
+  }
+  
